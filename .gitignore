@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv/
+env/
+venv/
+*.log
+
+# TensorFlow / model files
+*.h5
+*.keras
+*.pb
+*.tflite
+checkpoints/
+saved_model/
+
+# FastAPI
+*.db
+*.sqlite3
+
+# Node / React (frontend)
+node_modules/
+dist/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
